@@ -30,6 +30,7 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
 
 - [Open-Source GitHub Projects](#open-source-github-projects)
@@ -40,13 +41,17 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 
 
+## Sector Overview & Market Dynamics
+
+The global data quality and data validation software market is valued at approximately **$2.7B – $3.3B** and is projected to expand toward **$5.0B – $7.4B** at a ~13%–18% CAGR, fueled by real-time streaming architectures and AI data readiness initiatives. The sector is **moderately fragmented**: hyper-scale cloud providers and enterprise infrastructure conglomerates command substantial enterprise share, while specialized cloud-native vendors and an active open-source ecosystem capture application-level validation and developer workflows.
+
 ## SaaS/Hosted Platforms
 
-
-
-- **Managed Schema Registries** (Confluent Schema Registry, AWS Glue Schema Registry, Azure Schema Registry)  
-
-  Managed services for storing and versioning validation schemas with compatibility enforcement. **Best for**: organizations using managed event streaming platforms that need centralized schema governance without operating their own registry.
+| Platform | Provider / Parent | Company Size (Valuation / Revenue) | Starting Paid Tier Pricing | Free Tier / Free Trial Limits | Description & Best For |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **[Azure Schema Registry](https://learn.microsoft.com/en-us/azure/event-hubs/schema-registry-overview)** | Microsoft | **$3.9T+ Market Cap** (~$332B Ann. Revenue) | **$0.03/hour** per Throughput Unit (~$22.32/month) via Event Hubs Standard tier (plus $0.028 per million ingress events) | **30-Day Free Trial** with $200 Azure credits; no permanently free standalone tier (requires Event Hubs Standard or higher) | Managed schema registry for Apache Avro/JSON Schema within Azure Event Hubs; best for enterprise architectures on Azure. |
+| **[AWS Glue Schema Registry](https://aws.amazon.com/glue/)** | Amazon (AWS) | **$2.7T+ Market Cap** (~$776B Ann. Revenue) | **$1.00 per 100,000 objects/requests per month** after free tier (schema registry feature itself incurs $0 additional fee) | **Always Free** up to **1,000,000 stored objects** and **1,000,000 requests/month** via AWS Glue Data Catalog free tier | Centralized schema registry integrated with Amazon MSK, Kinesis, and Glue Data Catalog; best for AWS-native event pipelines. |
+| **[Confluent Cloud Schema Registry](https://www.confluent.io/confluent-cloud/)** | Confluent (IBM) | **$11.0B Acquisition Valuation** (~$1.17B Revenue) | **$1.00/hour per environment** (~$730/month) on Stream Governance Advanced tier (or $0.002/schema/hour overage on Essentials) | **Always Free** up to **100 schemas per environment** on Stream Governance Essentials plan (with 10 exporters and basic lineage) | Industry-standard schema registry for Apache Kafka, Avro, Protobuf, and JSON Schema; best for cross-cloud Kafka event streaming. |
 
 
 
