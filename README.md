@@ -79,74 +79,74 @@ The table below highlights leading hosted platforms for centralized schema gover
 
 ## 💻 Open-Source GitHub Projects
 
-The open-source projects below are sorted in **descending order by GitHub star count**. Each project includes a star badge linking directly to its stargazers page.
+The open-source projects below are sorted in **descending order by GitHub Stars_Count**. Each project includes a Stars_Badge linking directly to its stargazers page.
 
 ### 🏆 High-Performance Type Parsers & Schema Validators
 
-1. **[Pydantic](https://github.com/pydantic/pydantic)** [![GitHub stars](https://img.shields.io/github/stars/pydantic/pydantic?style=social&color=white)](https://github.com/pydantic/pydantic/stargazers)  
+1. **[Pydantic](https://github.com/pydantic/pydantic)** [![GitHub_Stars](https://img.shields.io/github/stars/pydantic/pydantic?style=social&color=white)](https://github.com/pydantic/pydantic/stargazers)  
    **Data parsing and validation using Python type hints** (MIT) — **the most widely used data validation library for Python** with **25.4M downloads/day**. **The performance leader** — since **Pydantic V2**, core validation logic is written in **Rust** (`pydantic-core`), delivering a **5x to 20x performance increase** over V1.  
    - **Benchmark results**: **20,762 validations/second** on user structures, **100% error messages with field paths**.  
    - **Key features**: Type hint-driven models, automatic coercion, nested models, dataclass integration via `@pydantic.dataclasses.dataclass`, `model_fields_set` tracking, and automatic JSON Schema generation.  
    - **Best for**: High-load web services, FastAPI backends, and any Python codebase where developer velocity and type safety matter.
 
-2. **[Marshmallow](https://github.com/marshmallow-code/marshmallow)** [![GitHub stars](https://img.shields.io/github/stars/marshmallow-code/marshmallow?style=social&color=white)](https://github.com/marshmallow-code/marshmallow/stargazers)  
+2. **[Marshmallow](https://github.com/marshmallow-code/marshmallow)** [![GitHub_Stars](https://img.shields.io/github/stars/marshmallow-code/marshmallow?style=social&color=white)](https://github.com/marshmallow-code/marshmallow/stargazers)  
    **A lightweight library for converting complex datatypes to and from native Python datatypes** (MIT) — **the schema-first choice** with **3.7M downloads/day**.  
    - **ORM/ODM/framework-agnostic**: Schemas are declarative classes defining fields, validation rules, and serialization behavior.  
    - **Benchmark results**: **268 validations/second** on user structures with **100% error messages with field paths**.  
    - **Key strengths**: Explicit schema definitions independent of type annotations, `dump()` and `load()` serialization primitives, composable `Nested()` fields, and clean integration with Flask and Django.  
    - **Best for**: Teams requiring explicit schema contracts, complex data transformations, and decoupled serialization.
 
-3. **[Attrs](https://github.com/python-attrs/attrs)** [![GitHub stars](https://img.shields.io/github/stars/python-attrs/attrs?style=social&color=white)](https://github.com/python-attrs/attrs/stargazers)  
+3. **[Attrs](https://github.com/python-attrs/attrs)** [![GitHub_Stars](https://img.shields.io/github/stars/python-attrs/attrs?style=social&color=white)](https://github.com/python-attrs/attrs/stargazers)  
    **Python Classes Without Boilerplate** (MIT) — **the foundational class-definition library**.  
    - Provides `@define` and `@attr.s` for concise class definitions with type annotations, validators, converters, and C-speed slots.  
    - Works hand-in-hand with **cattrs** for structuring and unstructuring untrusted inputs with composable validation hooks.  
    - **Best for**: Clean domain model architectures and high-performance class definitions.
 
-4. **[jsonschema](https://github.com/python-jsonschema/jsonschema)** [![GitHub stars](https://img.shields.io/github/stars/python-jsonschema/jsonschema?style=social&color=white)](https://github.com/python-jsonschema/jsonschema/stargazers)  
+4. **[jsonschema](https://github.com/python-jsonschema/jsonschema)** [![GitHub_Stars](https://img.shields.io/github/stars/python-jsonschema/jsonschema?style=social&color=white)](https://github.com/python-jsonschema/jsonschema/stargazers)  
    **Official Implementation of JSON Schema for Python** (MIT) — **the standard-compliant choice** with **13.5M downloads/day**.  
    - **Benchmark results**: **162 validations/second** on user structures with **64% error messages with field paths**.  
    - **Key strengths**: Strict adherence to JSON Schema specifications (Draft 3 through 2020-12), language-agnostic schema portability, and extensive validator pluggability.  
    - **Best for**: Cross-platform interoperability and external contract compliance.
 
-5. **[msgspec](https://github.com/jcrist/msgspec)** [![GitHub stars](https://img.shields.io/github/stars/jcrist/msgspec?style=social&color=white)](https://github.com/jcrist/msgspec/stargazers)  
+5. **[msgspec](https://github.com/jcrist/msgspec)** [![GitHub_Stars](https://img.shields.io/github/stars/jcrist/msgspec?style=social&color=white)](https://github.com/jcrist/msgspec/stargazers)  
    **High-performance serialization and validation using Python type annotations** (BSD-3-Clause) — **990K downloads/day**.  
    - **The ultra-fast alternative**: Implemented in C/Rust with native support for JSON, MessagePack, YAML, and TOML.  
    - Outperforms traditional validators on raw serialization and deserialization throughput while enforcing strict schema definitions.  
    - **Best for**: Ultra-low-latency APIs, real-time message pipelines, and high-frequency data ingestion.
 
-6. **[Cerberus](https://github.com/pyeve/cerberus)** [![GitHub stars](https://img.shields.io/github/stars/pyeve/cerberus?style=social&color=white)](https://github.com/pyeve/cerberus/stargazers)  
+6. **[Cerberus](https://github.com/pyeve/cerberus)** [![GitHub_Stars](https://img.shields.io/github/stars/pyeve/cerberus?style=social&color=white)](https://github.com/pyeve/cerberus/stargazers)  
    **Lightweight, extensible schema and data validation tool for Python dictionaries** (ISC License) — **210K downloads/day**.  
    - **Dictionary-native validation**: Validates directly against dictionary rule definitions (`{'name': {'type': 'string', 'required': True}}`) without requiring class boilerplate.  
    - **Benchmark results**: **66 validations/second** on user structures with **100% error messages with field paths**.  
    - **Best for**: Quick schema checking, document parsing, and lightweight configuration auditing.
 
-7. **[Schematics](https://github.com/schematics/schematics)** [![GitHub stars](https://img.shields.io/github/stars/schematics/schematics?style=social&color=white)](https://github.com/schematics/schematics/stargazers)  
+7. **[Schematics](https://github.com/schematics/schematics)** [![GitHub_Stars](https://img.shields.io/github/stars/schematics/schematics?style=social&color=white)](https://github.com/schematics/schematics/stargazers)  
    **Combine types into structures, validate, and transform the shapes of data** (BSD-3-Clause).  
    - Class-based schema models featuring explicit type declarations, role-based filtering, and bidirectional conversions.  
    - **Best for**: Legacy application upgrades and explicit data-shape transformations.
 
-8. **[Voluptuous](https://github.com/alecthomas/voluptuous)** [![GitHub stars](https://img.shields.io/github/stars/alecthomas/voluptuous?style=social&color=white)](https://github.com/alecthomas/voluptuous/stargazers)  
+8. **[Voluptuous](https://github.com/alecthomas/voluptuous)** [![GitHub_Stars](https://img.shields.io/github/stars/alecthomas/voluptuous?style=social&color=white)](https://github.com/alecthomas/voluptuous/stargazers)  
    **Python data validation library for external payloads** (BSD-3-Clause) — **198K downloads/day**.  
    - **Pythonic schema syntax**: Validates incoming data using expressive literals (`Schema({'name': str, 'age': int})`).  
    - Widely adopted across projects like Home Assistant for configuration and integration validation.  
    - **Best for**: Command-line arguments, user config files, and nested mapping validation.
 
-9. **[cattrs](https://github.com/python-attrs/cattrs)** [![GitHub stars](https://img.shields.io/github/stars/python-attrs/cattrs?style=social&color=white)](https://github.com/python-attrs/cattrs/stargazers)  
+9. **[cattrs](https://github.com/python-attrs/cattrs)** [![GitHub_Stars](https://img.shields.io/github/stars/python-attrs/cattrs?style=social&color=white)](https://github.com/python-attrs/cattrs/stargazers)  
    **Complex structuring and unstructuring of attrs and dataclass objects** (MIT) — **2.1M downloads/day**.  
    - Converts untrusted dictionaries and primitive data into typed data structures and back with extensible converter hooks.  
    - **Best for**: Composable serialization architectures built on Python dataclasses or attrs.
 
-10. **[Fastjsonschema](https://github.com/horejsek/python-fastjsonschema)** [![GitHub stars](https://img.shields.io/github/stars/horejsek/python-fastjsonschema?style=social&color=white)](https://github.com/horejsek/python-fastjsonschema/stargazers)  
+10. **[Fastjsonschema](https://github.com/horejsek/python-fastjsonschema)** [![GitHub_Stars](https://img.shields.io/github/stars/horejsek/python-fastjsonschema?style=social&color=white)](https://github.com/horejsek/python-fastjsonschema/stargazers)  
     **Fast JSON Schema validation for Python via code compilation** (BSD-3-Clause).  
     - Compiles JSON Schema specifications directly into optimized Python code, delivering order-of-magnitude faster validation than interpreted alternatives.  
     - **Best for**: High-throughput JSON Schema contract checking.
 
-11. **[Colander](https://github.com/Pylons/colander)** [![GitHub stars](https://img.shields.io/github/stars/Pylons/colander?style=social&color=white)](https://github.com/Pylons/colander/stargazers)  
+11. **[Colander](https://github.com/Pylons/colander)** [![GitHub_Stars](https://img.shields.io/github/stars/Pylons/colander?style=social&color=white)](https://github.com/Pylons/colander/stargazers)  
     **Simple schema validation and deserialization library from the Pylons ecosystem** (BSD-derived).  
     - Provides flexible schema nodes capable of validating and deserializing form submissions, strings, and mappings.  
     - **Best for**: Pyramid applications and Pylons-based web forms.
 
-12. **[Valideer](https://github.com/podio/valideer)** [![GitHub stars](https://img.shields.io/github/stars/podio/valideer?style=social&color=white)](https://github.com/podio/valideer/stargazers)  
+12. **[Valideer](https://github.com/podio/valideer)** [![GitHub_Stars](https://img.shields.io/github/stars/podio/valideer?style=social&color=white)](https://github.com/podio/valideer/stargazers)  
     **Lightweight data validation and adaptation Python library** (MIT).  
     - Minimalist functional validator emphasizing concise schema declarations and zero runtime dependencies.  
     - **Best for**: Lightweight scripts and simple parameter adaptation.
@@ -155,17 +155,17 @@ The open-source projects below are sorted in **descending order by GitHub star c
 
 ### ⚙️ Application Configuration & Settings Management
 
-1. **[Hydra](https://github.com/facebookresearch/hydra)** [![GitHub stars](https://img.shields.io/github/stars/facebookresearch/hydra?style=social&color=white)](https://github.com/facebookresearch/hydra/stargazers)  
+1. **[Hydra](https://github.com/facebookresearch/hydra)** [![GitHub_Stars](https://img.shields.io/github/stars/facebookresearch/hydra?style=social&color=white)](https://github.com/facebookresearch/hydra/stargazers)  
    **A framework for elegantly configuring complex applications from Meta Research** (MIT).  
    - Hierarchically composes configurations dynamically via YAML and command-line overrides; integrates with OmegaConf for strict typing.  
    - **Best for**: Machine learning experiments, research frameworks, and modular production applications.
 
-2. **[Dynaconf](https://github.com/dynaconf/dynaconf)** [![GitHub stars](https://img.shields.io/github/stars/dynaconf/dynaconf?style=social&color=white)](https://github.com/dynaconf/dynaconf/stargazers)  
+2. **[Dynaconf](https://github.com/dynaconf/dynaconf)** [![GitHub_Stars](https://img.shields.io/github/stars/dynaconf/dynaconf?style=social&color=white)](https://github.com/dynaconf/dynaconf/stargazers)  
    **The dynamic configuration management system for Python** (MIT).  
    - Supports multi-file formats (TOML, YAML, JSON, INI, `.env`), multi-environment layering (`development`, `staging`, `production`), secret vaults, and built-in type validation.  
    - **Best for**: 12-factor apps, Flask, Django, and cloud-native services needing multi-layered configuration.
 
-3. **[Pydantic-Settings](https://github.com/pydantic/pydantic-settings)** [![GitHub stars](https://img.shields.io/github/stars/pydantic/pydantic-settings?style=social&color=white)](https://github.com/pydantic/pydantic-settings/stargazers)  
+3. **[Pydantic-Settings](https://github.com/pydantic/pydantic-settings)** [![GitHub_Stars](https://img.shields.io/github/stars/pydantic/pydantic-settings?style=social&color=white)](https://github.com/pydantic/pydantic-settings/stargazers)  
    **Settings management using Pydantic** (MIT).  
    - Seamlessly loads and type-checks environment variables, `.env` files, secrets directories, and nested settings with full Pydantic V2 performance.  
    - **Best for**: Modern Python microservices, containerized deployments, and FastAPI settings.
@@ -174,17 +174,17 @@ The open-source projects below are sorted in **descending order by GitHub star c
 
 ### 📈 Data Pipeline, DataFrame & Table Quality Engines
 
-1. **[Great Expectations (GX)](https://github.com/great-expectations/great_expectations)** [![GitHub stars](https://img.shields.io/github/stars/great-expectations/great_expectations?style=social&color=white)](https://github.com/great-expectations/great_expectations/stargazers)  
+1. **[Great Expectations (GX)](https://github.com/great-expectations/great_expectations)** [![GitHub_Stars](https://img.shields.io/github/stars/great-expectations/great_expectations?style=social&color=white)](https://github.com/great-expectations/great_expectations/stargazers)  
    **Always know what to expect from your data** (Apache-2.0).  
    - Industry-standard framework for data assertion, automated profiling, and self-updating documentation ("Data Docs") across SQL, Spark, and Pandas.  
    - **Best for**: Production data pipelines, ETL validation, and data warehouse quality auditing.
 
-2. **[Pandera](https://github.com/unionai-oss/pandera)** [![GitHub stars](https://img.shields.io/github/stars/unionai-oss/pandera?style=social&color=white)](https://github.com/unionai-oss/pandera/stargazers)  
+2. **[Pandera](https://github.com/unionai-oss/pandera)** [![GitHub_Stars](https://img.shields.io/github/stars/unionai-oss/pandera?style=social&color=white)](https://github.com/unionai-oss/pandera/stargazers)  
    **Statistical data validation for Pandas, Polars, and Dask DataFrames** (MIT).  
    - Provides expressive type annotations and schema definitions for tabular structures, enforcing column types, value ranges, and statistical hypotheses.  
    - **Best for**: Data science notebooks, ML preprocessing pipelines, and analytics workflows.
 
-3. **[Soda Core](https://github.com/sodadata/soda-core)** [![GitHub stars](https://img.shields.io/github/stars/sodadata/soda-core?style=social&color=white)](https://github.com/sodadata/soda-core/stargazers)  
+3. **[Soda Core](https://github.com/sodadata/soda-core)** [![GitHub_Stars](https://img.shields.io/github/stars/sodadata/soda-core?style=social&color=white)](https://github.com/sodadata/soda-core/stargazers)  
    **Free, open-source command-line tool and Python library for data reliability** (Apache-2.0).  
    - Enables engineers to define data reliability checks in declarative SodaCL (Soda Checks Language) across PostgreSQL, Snowflake, BigQuery, and Athena.  
    - **Best for**: CI/CD data testing, ingestion validation, and automated data monitoring.
@@ -237,3 +237,12 @@ If you find this repository helpful, consider supporting its maintenance and con
 *Let's make Data Validation & Settings more open, data-driven, and type-safe.*
 
 </div>
+
+## ⭐ Star History
+
+<a href="https://star-history.com/#ishandutta2007/Awesome-Data-Validation-Settings&Timeline" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Data-Validation-Settings_growth.svg">
+    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Data-Validation-Settings_growth.svg">
+  </picture>
+</a>
